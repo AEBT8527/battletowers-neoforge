@@ -1,0 +1,20 @@
+# Build output
+build/
+out/
+.gradle/
+
+# Dev runs and logs
+run/
+run-server/
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+bin/
+eclipse/

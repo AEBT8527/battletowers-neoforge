@@ -1,0 +1,15 @@
+{
+	"name": "battletowers:underground/stone_lower_part",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"location": "battletowers:underground/stone_lower_part",
+				"processors": "battletowers:stone_lower_floors",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}

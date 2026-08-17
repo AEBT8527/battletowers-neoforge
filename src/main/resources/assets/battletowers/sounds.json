@@ -1,0 +1,53 @@
+{
+	"golem_ambient": { 
+		"subtitle": "subtitles.battletowers.golem_ambient",
+		"sounds": [ 
+			"battletowers:golem_ambient"
+		]
+	},
+	"golem_awaken": { 
+		"subtitle": "subtitles.battletowers.golem_awaken",
+		"sounds": [ 
+			"battletowers:golem_awaken"
+		]
+	},
+	"golem_death": { 
+		"subtitle": "subtitles.battletowers.golem_death",
+		"sounds": [ 
+			"battletowers:golem_death"
+		]
+	},
+	"golem_hurt": { 
+		"subtitle": "subtitles.battletowers.golem_hurt",
+		"sounds": [ 
+			"battletowers:golem_hurt_1",
+			"battletowers:golem_hurt_2"
+		]
+	},
+	"golem_charge": { 
+		"subtitle": "subtitles.battletowers.golem_charge",
+		"sounds": [ 
+			"battletowers:golem_charge_1",
+			"battletowers:golem_charge_2"
+		]
+	},
+	"golem_special": {
+		"subtitle": "subtitles.battletowers.golem_special",
+		"sounds": [ 
+			"battletowers:golem_special_1",
+			"battletowers:golem_special_2"
+		]
+	},
+	"tower_break_start": { 
+		"subtitle": "subtitles.battletowers.tower_break_start",
+		"sounds": [ 
+			"battletowers:tower_break_start"
+		]
+	},
+	"tower_crumble": { 
+		"subtitle": "subtitles.battletowers.tower_crumble",
+		"sounds": [ 
+			"battletowers:tower_crumble"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "battletowers:underground/stone_top_floor",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"location": "battletowers:underground/stone_top_floor",
+				"processors": "battletowers:generic_top_floor_underground",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}

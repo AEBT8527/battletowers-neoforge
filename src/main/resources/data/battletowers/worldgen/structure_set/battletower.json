@@ -1,0 +1,50 @@
+{
+    "structures": [
+        {
+            "structure": "battletowers:bamboo_tower",
+            "weight": 5
+        },
+        {
+            "structure": "battletowers:cobblestone_tower",
+            "weight": 5
+        },
+        {
+            "structure": "battletowers:red_sandstone_tower",
+            "weight": 5
+        },
+        {
+            "structure": "battletowers:sandstone_tower",
+            "weight": 5
+        },
+        {
+            "structure": "battletowers:stone_tower",
+            "weight": 5
+        },
+        {
+            "structure": "battletowers:underground_bamboo_tower",
+            "weight": 1
+        },
+        {
+            "structure": "battletowers:underground_cobblestone_tower",
+            "weight": 1
+        },
+        {
+            "structure": "battletowers:underground_red_sandstone_tower",
+            "weight": 1
+        },
+        {
+            "structure": "battletowers:underground_sandstone_tower",
+            "weight": 1
+        },
+        {
+            "structure": "battletowers:underground_stone_tower",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 40,
+        "separation": 15,
+        "salt": 718165913
+    }
+}

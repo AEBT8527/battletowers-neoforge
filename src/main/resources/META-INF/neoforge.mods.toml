@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC BY-NC 3.0"
+issueTrackerURL="https://github.com/blxckdog/ClassicBattleTowers/issues"
+
+[[mods]]
+modId="battletowers"
+version="${version}"
+displayName="Classic Battle Towers"
+description='''Discover challenging towers full of monsters and fight your way to the top!
+This mod brings the original ideas of Kodaichi's and AtomicStryker's Battle Tower Mods back to newer versions.'''
+authors="_blackdog, N1ck1903, Bozmund"
+iconFile="assets/battletowers/icon.png"
+displayURL="https://github.com/blxckdog/ClassicBattleTowers"
+
+[[dependencies.battletowers]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.battletowers]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
