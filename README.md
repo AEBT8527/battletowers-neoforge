@@ -94,7 +94,30 @@ following **RLCraft's** tower progression, read out of its own `config/battletow
 | Floors 3–4 | chainmail, first iron tools, `simple_dungeon` filler, 5% random-enchanted book |
 | Floors 5–6 | exploration kit, iron armour, first `enchant_with_levels` gear (5–15), mineshaft filler |
 | Floors 7–8 | diamond tools, enchanted kit (15–25), golden apples, horse armour, 3% enchanted golden apple |
-| Top / underground bottom | **guaranteed** enchanted diamond weapon *and* armour piece (25–35), treasure pool with enchanted book, netherite upgrade template, totem, 1% nether star, plus 3 rolls of dungeon filler |
+| Top / underground bottom | guaranteed enchanted diamond weapon (20–28), 70% chance of an enchanted diamond armour piece, treasure pool with enchanted book plus the rare slots below, and 2 rolls of dungeon filler |
+
+### Rarity of the headline items
+
+The run-defining items are deliberately uncommon — per roll of the boss chest:
+
+| Item | Chance |
+|---|---|
+| Enchanted golden apple | 5.2% |
+| Diamond block | 5.2% |
+| Netherite upgrade template | 2.6% |
+| Totem of undying | 2.6% |
+| Nether star | 1.3% |
+
+On floors 7–8 an enchanted golden apple or a totem is 1% each. The boss armour piece is a 70%
+chance rather than a certainty, and boss enchants sit at levels 20–28 rather than near-max.
+
+### How often towers generate
+
+The structure set was thinned from `spacing 40 / separation 15` to **`spacing 68 / separation 24`**.
+Density on a `random_spread` placement scales with 1/spacing², so that leaves roughly **a third as
+many towers** (0.35×) — still findable, but a tower is now a landmark rather than scenery. Both
+numbers live in `data/battletowers/worldgen/structure_set/battletower.json` if you want to retune;
+raising `spacing` makes them rarer, and `separation` must stay below it.
 
 The underground tower mirrors the same curve with a cave flavour (raw ores, amethyst, lanterns, a 2%
 ancient debris in the boss chest); since it is descended, `bottom_floor` is its boss chest.

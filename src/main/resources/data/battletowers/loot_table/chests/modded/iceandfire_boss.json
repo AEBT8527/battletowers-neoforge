@@ -12,19 +12,19 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 55
+          "weight": 72
         },
         {
           "type": "minecraft:item",
           "name": "iceandfire:dragonbone_bow",
-          "weight": 12,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20.0,
-                "max": 30.0
+                "min": 16.0,
+                "max": 24.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -33,14 +33,14 @@
         {
           "type": "minecraft:item",
           "name": "iceandfire:dragonbone_sword",
-          "weight": 12,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 20.0,
-                "max": 30.0
+                "min": 16.0,
+                "max": 24.0
               },
               "options": "#minecraft:on_random_loot"
             }

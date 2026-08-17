@@ -12,19 +12,19 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 30
+          "weight": 58
         },
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_dagger",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -33,14 +33,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_longsword",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -49,14 +49,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_katana",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -65,14 +65,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_saber",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -81,14 +81,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_rapier",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -97,14 +97,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_greatsword",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -113,14 +113,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_battleaxe",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -129,14 +129,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_warhammer",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -145,14 +145,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_spear",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -161,14 +161,14 @@
         {
           "type": "minecraft:item",
           "name": "spartan_weaponry_unofficial:diamond_halberd",
-          "weight": 7,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 22.0,
-                "max": 32.0
+                "min": 18.0,
+                "max": 26.0
               },
               "options": "#minecraft:on_random_loot"
             }

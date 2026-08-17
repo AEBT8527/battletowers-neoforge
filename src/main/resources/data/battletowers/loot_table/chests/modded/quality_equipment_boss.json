@@ -12,17 +12,17 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 60
+          "weight": 78
         },
         {
           "type": "minecraft:item",
           "name": "quality_equipment:emerald_ring",
-          "weight": 20
+          "weight": 11
         },
         {
           "type": "minecraft:item",
           "name": "quality_equipment:emerald_amulet",
-          "weight": 20
+          "weight": 11
         }
       ]
     }

@@ -196,8 +196,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 25.0
+                "min": 12.0,
+                "max": 20.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -212,8 +212,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 25.0
+                "min": 12.0,
+                "max": 20.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -228,8 +228,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 25.0
+                "min": 12.0,
+                "max": 20.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -244,8 +244,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 25.0
+                "min": 12.0,
+                "max": 20.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -260,8 +260,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 25.0
+                "min": 12.0,
+                "max": 20.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -276,8 +276,8 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 15.0,
-                "max": 25.0
+                "min": 12.0,
+                "max": 20.0
               },
               "options": "#minecraft:on_random_loot"
             }
@@ -304,12 +304,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 60
+          "weight": 76
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 18,
+          "weight": 11,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -324,7 +324,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 12,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -335,17 +335,15 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_horse_armor",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying",
-          "weight": 2
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying"
         }
       ]
     }

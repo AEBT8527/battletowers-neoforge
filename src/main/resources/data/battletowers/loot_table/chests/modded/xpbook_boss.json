@@ -12,17 +12,17 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 80
+          "weight": 88
         },
         {
           "type": "minecraft:item",
           "name": "xpbook:xp_book",
-          "weight": 14
+          "weight": 9
         },
         {
           "type": "minecraft:item",
           "name": "xpbook:xp_tome",
-          "weight": 6
+          "weight": 3
         }
       ]
     }

@@ -12,12 +12,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 70
+          "weight": 80
         },
         {
           "type": "minecraft:item",
           "name": "bountifulbaubles:book_o_enchanting",
-          "weight": 12
+          "weight": 9
         },
         {
           "type": "minecraft:item",

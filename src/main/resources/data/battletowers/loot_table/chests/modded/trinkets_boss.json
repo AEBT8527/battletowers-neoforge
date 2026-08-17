@@ -12,12 +12,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 55
+          "weight": 70
         },
         {
           "type": "minecraft:item",
           "name": "trinketsandbaubles:dragons_eye",
-          "weight": 15
+          "weight": 9
         },
         {
           "type": "minecraft:item",
