@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "trinketsandbaubles"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 72
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:glow_ring",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:inertia_null_stone",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:greater_inertia_stone",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:dragons_eye",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:fairy_dew",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

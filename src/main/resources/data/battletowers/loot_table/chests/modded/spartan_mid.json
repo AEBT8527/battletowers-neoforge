@@ -1,0 +1,65 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 64
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:throwing_knife_stone",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:tomahawk_stone",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:javelin_stone",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:boomerang_stone",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_pike",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_lance",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_battleaxe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_flanged_mace",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_glaive",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

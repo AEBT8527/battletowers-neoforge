@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "entries": [
+    "battletowers:bountifulbaubles_boss",
+    "battletowers:iceandfire_boss",
+    "battletowers:iceandfire_elite",
+    "battletowers:iceandfire_high",
+    "battletowers:iceandfire_mid",
+    "battletowers:quality_equipment_boss",
+    "battletowers:quality_equipment_elite",
+    "battletowers:spartan_boss",
+    "battletowers:spartan_early",
+    "battletowers:spartan_elite",
+    "battletowers:spartan_high",
+    "battletowers:spartan_mid",
+    "battletowers:trinkets_boss",
+    "battletowers:trinkets_elite",
+    "battletowers:trinkets_high",
+    "battletowers:xpbook_boss",
+    "battletowers:xpbook_elite"
+  ]
+}

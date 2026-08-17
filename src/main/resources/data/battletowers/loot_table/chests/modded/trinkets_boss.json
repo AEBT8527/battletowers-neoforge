@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "trinketsandbaubles"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 55
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:dragons_eye",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:greater_inertia_stone",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:titan_spirit",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:elf_sap",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

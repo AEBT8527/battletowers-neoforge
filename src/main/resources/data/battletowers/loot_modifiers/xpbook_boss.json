@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xpbook"
+    }
+  ],
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "battletowers:chests/top_floor"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "battletowers:chests/underground/bottom_floor"
+        }
+      ]
+    }
+  ],
+  "table": "battletowers:chests/modded/xpbook_boss"
+}

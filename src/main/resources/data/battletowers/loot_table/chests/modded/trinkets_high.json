@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "trinketsandbaubles"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 78
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:glow_ring",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:weightless_stone",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:sea_stone",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trinketsandbaubles:polarized_stone",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spartan_weaponry_unofficial"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_dagger",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_longsword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_katana",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_saber",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_rapier",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_greatsword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_battle_hammer",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_warhammer",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_spear",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spartan_weaponry_unofficial:stone_halberd",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

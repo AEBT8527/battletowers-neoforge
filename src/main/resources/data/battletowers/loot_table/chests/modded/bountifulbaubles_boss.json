@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bountifulbaubles"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:book_o_enchanting",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:golden_melon",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:luck_coin",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:minds_eye",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:fire_mind"
+        }
+      ]
+    }
+  ]
+}

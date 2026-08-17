@@ -102,6 +102,30 @@ ancient debris in the boss chest); since it is descended, `bottom_floor` is its 
 The golem itself now drops diamonds, an iron block, redstone and a small chance of XP bottles,
 emeralds or a diamond block — worth killing, without upstaging the chest.
 
+### Modded loot, the way RLCraft did it
+
+RLCraft doesn't fill its towers with vanilla items — its floors are full of Spartan Weaponry stone
+weapons low down, Ice and Fire silver armour in the middle, baubles and rings higher up, and xp books
+plus 1% jackpots at the top. That layer is reproduced here with the **1.21.1 equivalents**, with every
+id read out of the installed jars rather than assumed — note the Spartan namespace on 1.21.1 is
+`spartan_weaponry_unofficial`, not RLCraft's `spartanweaponry`.
+
+| Mod | Where it lands | RLCraft's original |
+|---|---|---|
+| Spartan Weaponry | stone melee on 1–2, stone thrown on 3–4, enchanted iron on 5–6, enchanted diamond on 7–8 and the boss | stone weapons at ~2% each on floors 1–2 |
+| Ice and Fire | silver armour at 5% on 3–4 and 10% on 5–6; dragonbone and sea serpent parts higher; enchanted dragonbone at the boss | `armor_silver_metal_*` at 5–10% |
+| Trinkets and Baubles | rings and stones from 5–6 upward | `baubles:ring` at ~10% |
+| Quality Equipment | emerald ring and amulet on 7–8 and the boss | `qualitytools:emerald_ring` / `_amulet` at 10% |
+| XP Tome | xp book at 6% on 7–8, book and tome at the boss | `xpbook:xp_book` at 3% |
+| Bountiful Baubles | the boss jackpot slot | `bountifulbaubles:spectralsilt` at 1% |
+
+**None of this makes the mod depend on those mods.** Each modded table carries a whole-file
+`"neoforge:conditions"` `mod_loaded` gate, so when a mod is absent NeoForge skips the file entirely
+instead of failing to parse an unknown item, and a `neoforge:add_table` global loot modifier — gated
+the same way — injects it into the matching chests. Verified both ways: with the mods absent a
+dedicated server boots with **zero errors**, and with XP Tome installed a single roll of
+`battletowers:chests/top_floor` returned an xpbook item, which can only arrive through the modifier.
+
 Everything stays **vanilla-only**, so the mod still has no dependencies. All 83 item ids and both
 nested table references were checked against the 1.21.1 registry, and the tables were rolled in game
 with `/loot give` to confirm the curve: two floor-1–2 chests plus a floor-5–6 produced supplies and a

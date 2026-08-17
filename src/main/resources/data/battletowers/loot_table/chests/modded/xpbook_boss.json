@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "xpbook"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xpbook:xp_book",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xpbook:xp_tome",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

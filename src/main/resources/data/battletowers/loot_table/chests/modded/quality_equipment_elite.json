@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "quality_equipment"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quality_equipment:emerald_ring",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quality_equipment:emerald_amulet",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}
