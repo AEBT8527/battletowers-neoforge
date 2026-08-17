@@ -71,6 +71,43 @@ of the pair failed to compile.
 The only warnings are eight `Missing subtitle translation` lines for the mod's sounds. Those are
 upstream's: its `en_us.json` ships exactly two keys and never had `subtitles.*` entries.
 
+## Loot rebalance (this port only)
+
+Upstream's chest loot is flat: every floor hands out a near-guaranteed kit, nothing is ever
+enchanted, and the boss chest is barely better than floor 1. The tables here were rewritten
+following **RLCraft's** tower progression, read out of its own `config/battletowers.cfg`:
+
+- **the climb is a gamble** — low floors are mostly supplies and empty rolls, so a tower is a risk
+  rather than a vending machine;
+- **gear steps hard per floor pair** — leather/stone → chainmail + iron tools → iron armour and the
+  first *enchanted* pieces → diamond tools and enchanted kit → enchanted diamond at the boss;
+- **the best items sit at 1–10% weight**, so a jackpot is possible on any floor and expected on none
+  (RLCraft puts `nether_star` at 1%; the equivalent here is also 1%);
+- **the middle floors are the exploration-kit tier** — RLCraft hands out belts, backpacks and
+  atlases, so the vanilla stand-ins are maps, compass, spyglass, name tags, leads and ender pearls;
+- **vanilla tables are pulled in as scaling filler**, which is exactly what RLCraft does with its
+  `ChestGenHook` entries, with the roll count rising per floor.
+
+| Chest | Character |
+|---|---|
+| Floors 1–2 | supplies and junk; a leather/stone piece at ~60% *not* to appear; 1% saddle |
+| Floors 3–4 | chainmail, first iron tools, `simple_dungeon` filler, 5% random-enchanted book |
+| Floors 5–6 | exploration kit, iron armour, first `enchant_with_levels` gear (5–15), mineshaft filler |
+| Floors 7–8 | diamond tools, enchanted kit (15–25), golden apples, horse armour, 3% enchanted golden apple |
+| Top / underground bottom | **guaranteed** enchanted diamond weapon *and* armour piece (25–35), treasure pool with enchanted book, netherite upgrade template, totem, 1% nether star, plus 3 rolls of dungeon filler |
+
+The underground tower mirrors the same curve with a cave flavour (raw ores, amethyst, lanterns, a 2%
+ancient debris in the boss chest); since it is descended, `bottom_floor` is its boss chest.
+
+The golem itself now drops diamonds, an iron block, redstone and a small chance of XP bottles,
+emeralds or a diamond block — worth killing, without upstaging the chest.
+
+Everything stays **vanilla-only**, so the mod still has no dependencies. All 83 item ids and both
+nested table references were checked against the 1.21.1 registry, and the tables were rolled in game
+with `/loot give` to confirm the curve: two floor-1–2 chests plus a floor-5–6 produced supplies and a
+plain bow, while the top-floor chest produced an enchanted bow, enchanted diamond boots and an
+enchanted golden apple.
+
 ## Building
 
 ```bash
